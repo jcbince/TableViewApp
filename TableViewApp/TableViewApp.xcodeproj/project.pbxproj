@@ -56,6 +56,9 @@
 		8D7013972693F03000FDE51D /* TableViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D7013AE2693F30C00FDE51D /* Controller */,
+				8D7013AD2693F30300FDE51D /* View */,
+				8D7013AC2693F2FB00FDE51D /* Model */,
 				8D7013982693F03000FDE51D /* AppDelegate.swift */,
 				8D70139A2693F03000FDE51D /* SceneDelegate.swift */,
 				8D70139C2693F03000FDE51D /* ViewController.swift */,
@@ -65,6 +68,27 @@
 				8D7013A62693F03100FDE51D /* Info.plist */,
 			);
 			path = TableViewApp;
+			sourceTree = "<group>";
+		};
+		8D7013AC2693F2FB00FDE51D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D7013AD2693F30300FDE51D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D7013AE2693F30C00FDE51D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

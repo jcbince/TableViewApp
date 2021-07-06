@@ -30,7 +30,7 @@ class CountryTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return dataManager.countryNames.count
+        return dataManager.numberOfCountries()
     }
 
 
@@ -38,7 +38,10 @@ class CountryTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "countryCell", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = dataManager.countryNames[indexPath.row]
+//        cell.textLabel?.text = dataManager.countryNames[indexPath.row]
+        let currentCountry = dataManager.country(at: indexPath)
+        cell.textLabel?.text = currentCountry.name
+        cell.detailTextLabel?.text = currentCountry.code
         return cell
     }
     

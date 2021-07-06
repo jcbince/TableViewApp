@@ -16,6 +16,7 @@
 		8D7013B02693F40200FDE51D /* CountryArrayString.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7013AF2693F40200FDE51D /* CountryArrayString.plist */; };
 		8D7013B22693F5DE00FDE51D /* CountryDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7013B12693F5DE00FDE51D /* CountryDataManager.swift */; };
 		8D7013B62693FB5B00FDE51D /* CountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7013B52693FB5B00FDE51D /* CountryTableViewController.swift */; };
+		8D7013BA2694032000FDE51D /* country.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D7013B92694032000FDE51D /* country.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8D7013AF2693F40200FDE51D /* CountryArrayString.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryArrayString.plist; sourceTree = "<group>"; };
 		8D7013B12693F5DE00FDE51D /* CountryDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDataManager.swift; sourceTree = "<group>"; };
 		8D7013B52693FB5B00FDE51D /* CountryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewController.swift; sourceTree = "<group>"; };
+		8D7013B92694032000FDE51D /* country.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = country.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8D7013AC2693F2FB00FDE51D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D7013B92694032000FDE51D /* country.plist */,
 				8D7013AF2693F40200FDE51D /* CountryArrayString.plist */,
 				8D7013B12693F5DE00FDE51D /* CountryDataManager.swift */,
 			);
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7013BA2694032000FDE51D /* country.plist in Resources */,
 				8D7013B02693F40200FDE51D /* CountryArrayString.plist in Resources */,
 				8D7013A52693F03100FDE51D /* LaunchScreen.storyboard in Resources */,
 				8D7013A22693F03100FDE51D /* Assets.xcassets in Resources */,
